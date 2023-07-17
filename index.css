@@ -1,0 +1,78 @@
+nav{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #005A9C;
+    text-align: center;
+}
+#root{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+}    
+#chartdiv{
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.6px);
+    -webkit-backdrop-filter: blur(9.6px);
+    height: 300px;
+    width: 40%;
+}
+#chartdiv-2{
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.6px);
+    -webkit-backdrop-filter: blur(9.6px);
+    height: 300px;
+    width: 40%;
+    visibility: hidden;
+}
+#account{
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.6px);
+    -webkit-backdrop-filter: blur(9.6px);
+    height: 200px;
+    width: 40%;
+}
+#transaction{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.6px);
+    -webkit-backdrop-filter: blur(9.6px);
+    height: 300px;
+    width: 40%;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #005A9C;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.dot:hover {
+    background-color: #0077cc;
+}
